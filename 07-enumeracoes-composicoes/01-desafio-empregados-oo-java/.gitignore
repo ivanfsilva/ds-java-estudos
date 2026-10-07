@@ -1,0 +1,70 @@
+# ==========================================
+# Compilação do Java (Bytecode e Builds)
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Pastas de saída de compilação padrão
+bin/
+build/
+out/
+target/
+
+# ==========================================
+# Configurações do IntelliJ IDEA
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==========================================
+# Configurações do Eclipse
+# ==========================================
+.settings/
+.classpath
+.project
+.metadata/
+bin/
+
+# ==========================================
+# Configurações do Visual Studio Code
+# ==========================================
+.vscode/
+
+# ==========================================
+# Arquivos do Sistema Operacional
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================================
+# Logs e Arquivos Temporários
+# ==========================================
+*.log
+*.tmp
+*.swp
+
+# ==========================================
+# SonarLint
+# ==========================================
+.sonarlint/
+.sonar/
+sonarProject.properties
