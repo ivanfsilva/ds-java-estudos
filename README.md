@@ -40,8 +40,8 @@ Os exercícios estão consolidados e organizados em subpastas numeradas por tóp
 | **07** | `07-enumeracoes-composicoes`      | Enumerações (`enum`), associação e composição de objetos                              |  ✅ Concluído   |
 | **08** | `08-heranca-polimorfismo`         | Herança, sobreposição, `super`, polimorfismo, classes abstratas                       |  ✅ Concluído   |
 | **09** | `09-tratamento-excecoes`          | Estrutura `try-catch`, bloco `finally`, exceções personalizadas                       |  ✅ Concluído   |
-| **10** | `10-trabalhando-com-arquivos`     | Leitura e escrita de arquivos (`File`, `Scanner`, `BufferedReader`, `BufferedWriter`) | ⏳ Em andamento |
-| **11** | `11-interfaces`                   | Interfaces, injeção de dependência, default methods                                   |  📅 Planejado   |
+| **10** | `10-trabalhando-com-arquivos`     | Leitura e escrita de arquivos (`File`, `Scanner`, `BufferedReader`, `BufferedWriter`) |  ✅ Concluído   |
+| **11** | `11-interfaces`                   | Interfaces, injeção de dependência, default methods                                   | ⏳ Em andamento |
 | **12** | `12-generics-set-map`             | Tipos curinga (Generics), coleções (`Set`, `Map`), `hashCode` e `equals`              |  📅 Planejado   |
 | **13** | `13-programacao-funcional-lambda` | Expressões lambda, interfaces funcionais, funções de alta ordem, Stream API           |  📅 Planejado   |
 
