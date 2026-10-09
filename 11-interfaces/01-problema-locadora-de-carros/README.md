@@ -33,11 +33,6 @@ da locação, valor do imposto e valor total do pagamento) e informar os dados n
 
 ![Diagrama de Classes - UML](diagrama-classes-uml.png)
 
-### Diagrama de Classes - UML (Services)
-
-![Diagrama de Classes - UML (Services).png](diagrama-classes-uml-servicos.png)
-
-
 ### Diagrama de Classes - UML (Domain layer design)
 
 ![Diagrama de Classes - UML (Domain layer design)](diagrama-classes--uml-domain-layer-design.png)
