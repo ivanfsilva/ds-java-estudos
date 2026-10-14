@@ -8,6 +8,7 @@ distintos acessaram o site.
 ## Exemplo de entrada e saída
 
 ### Arquivo de Entrada (ex: `in.txt`)
+#### Para facilitar, copie o arquivo `in.txt` para a pasta `c:\temp\in.txt`.
 
 ```text
 amanda 2018-08-26T20:45:08Z
