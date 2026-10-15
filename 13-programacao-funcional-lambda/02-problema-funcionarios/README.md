@@ -34,6 +34,18 @@ Mostrar também a soma dos salários dos funcionários cujo nome começa com a l
 
 ## 🧠 Conhecimentos e Tecnologias Aplicadas
 
+Neste projeto, foram aplicados conceitos avançados de Programação Orientada a Objetos, Leitura de Arquivos e Programação Funcional em Java 17 para processar e analisar dados de funcionários contidos em um arquivo CSV:
+
+- **Programação Funcional e Streams API:** Utilização de pipelines de `Stream` para manipulação declarativa e eficiente de coleções de dados. Foram aplicadas operações como `filter` (para selecionar funcionários por faixa salarial e inicial do nome), `map` (para extrair e-mails e salários), `sorted` (para ordenação alfabética natural) e `reduce` / `Double::sum` (para realizar o somatório de salários).
+- **Expressões Lambda e Referências a Métodos (Method References):** Emprego de funções anônimas e syntaxes concisas (`Employee::getEmail`, `Double::sum`) para tornar o código mais expressivo, limpo e legível.
+- **Manipulação de Arquivos e I/O de Dados:** Leitura eficiente de arquivo texto (`.csv`) linha a linha utilizando as classes `FileReader` e `BufferedReader`, realizando o parsing das linhas com `split(",")` e conversões de tipos primitivos (`Double.parseDouble`).
+- **Tratamento de Exceções e Gestão de Recursos (try-with-resources):** Utilização do bloco `try-with-resources` para a instanciação do `BufferedReader`. Essa boa prática garante que o arquivo seja fechado automaticamente ao final do processamento ou em caso de erro, prevenindo vazamentos de recursos de E/S (*memory/resource leaks*).
+- **Orientação a Objetos e Modelo de Domínio:** Criação e encapsulamento da entidade `Employee` com atributos privados, construtores, métodos de acesso (*getters/setters*) e padronização dos métodos `equals()` e `hashCode()`.
+- **Internacionalização e Formatação (`Locale`):** Definição explícita de `Locale.US` para padronizar a leitura e exibição de números decimais utilizando o ponto (`.`) como separador.
+- **Arquitetura e Organização de Pacotes:** Divisão estruturada de responsabilidades do projeto:
+    * `entities`: Pacote contendo as classes de domínio (`Employee`).
+    * `application`: Pacote contendo a classe executável (`Program`), responsável pela interação via console e orquestração do fluxo principal.
+
 ---
 
 ## 👤 Autor
