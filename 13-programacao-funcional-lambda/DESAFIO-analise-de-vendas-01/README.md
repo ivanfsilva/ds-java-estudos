@@ -57,7 +57,28 @@ classe `Sale` para facilitar):
 
 ![img.png](img.png)
 
+## 🧠 Conhecimentos e Tecnologias Aplicadas
 
+Neste projeto, foram aplicados conceitos avançados de Programação Orientada a Objetos, Leitura de Arquivos e Programação
+Funcional em Java 17 para processar e analisar dados de vendas contidos em um arquivo CSV:
+
+- **Programação Funcional e Streams API:** Utilização de pipelines de `Stream` para manipulação declarativa e eficiente
+  de coleções de dados. Foram aplicadas operações como `filter` (para selecionar vendas por ano, vendedor e meses
+  específicos), `sorted` (para ordenação decrescente por preço médio calculado), `limit` (para selecionar as 5 maiores
+  vendas) e `mapToDouble` / `sum` (para realizar o somatório de vendas).
+- **Expressões Lambda e Referências a Métodos (Method References):** Emprego de funções anônimas para maior concisão,
+  legibilidade e expressividade na manipulação e filtragem de coleções.
+- **Encapsulamento com Tipos Wrapper:** Utilização estrita de classes wrapper (`Integer` e `Double`) nos atributos e
+  métodos da classe de domínio `Sale`, evitando o uso de tipos primitivos.
+- **Manipulação de Arquivos e I/O de Dados:** Leitura eficiente de arquivo texto (`.csv`) linha a linha utilizando as
+  classes `FileReader` e `BufferedReader`, realizando o parsing das informações com `split(",")` e conversões de tipos.
+- **Tratamento de Exceções e Gestão de Recursos (try-with-resources):** Utilização do bloco `try-with-resources` para a
+  abertura de streams de arquivo, garantindo o fechamento automático dos recursos e exibindo mensagens de erro tratadas
+  em caso de falhas de E/S (`IOException`).
+- **Orientação a Objetos e Modelo de Domínio:** Criação da entidade `Sale` com encapsulamento adequado, método para
+  cálculo derivado (`averagePrice()`) e sobrescrita do método `toString()` para formatação customizada das saídas.
+
+---
 
 ## 👤 Autor
 
@@ -67,5 +88,5 @@ Copyright © 2026 Ivan Ferreira. Todos os direitos reservados.
 
 ## ☕ Sobre
 
-Exercício prático desenvolvido durante os treinamentos de Java da plataforma ⚡**DevSuperior**, ministrados pelo Prof.
+Desafio prático desenvolvido durante os treinamentos de Java da plataforma ⚡**DevSuperior**, ministrados pelo Prof.
 Dr. Nélio Alves.
